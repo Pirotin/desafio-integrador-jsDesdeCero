@@ -1,14 +1,22 @@
 // Intento de interacciones con los div de descuento
 
-document.getElementById('cuadro80').addEventListener("mouseover",divColor1)
-document.getElementById('cuadro80').addEventListener("mouseout",divColorBlanco)
+let cuadro80 = document.getElementById('cuadro80')
+let cuadro50 = document.getElementById('cuadro50')
+let cuadro15 = document.getElementById('cuadro15')
+
+cuadro80.addEventListener("mouseover", divColor1)
+cuadro50.addEventListener("mouseover", divColor2)
+cuadro15.addEventListener("mouseover", divColor3)
+
+// document.getElementById('cuadro80').addEventListener("mouseover",divColor1)
+// document.getElementById('cuadro80').addEventListener("mouseout",divColorBlanco)
 
 
-document.getElementById('cuadro50').addEventListener("mouseover",divColor2)
-document.getElementById('cuadro80').addEventListener("mouseout",divColorBlanco)
+// document.getElementById('cuadro50').addEventListener("mouseover",divColor2)
+// document.getElementById('cuadro80').addEventListener("mouseout",divColorBlanco)
 
-document.getElementById('cuadro15').addEventListener("mouseover",divColor3)
-document.getElementById('cuadro80').addEventListener("mouseout",divColorBlanco)
+// document.getElementById('cuadro15').addEventListener("mouseover",divColor3)
+// document.getElementById('cuadro80').addEventListener("mouseout",divColorBlanco)
 
 
 function divColorBlanco(){
